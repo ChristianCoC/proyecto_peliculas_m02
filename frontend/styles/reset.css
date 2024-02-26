@@ -1,0 +1,91 @@
+/* reset.css */
+
+/* Box-sizing reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+button,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Set default font size and line height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Remove text-decoration on links */
+a {
+    text-decoration: none;
+}
+
+/* Remove background and border on abbr and acronym elements */
+abbr[title],
+acronym[title] {
+    border: none;
+    background: none;
+}
+
+/* Remove default button styling */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Remove default styling on blockquote elements */
+blockquote {
+    quotes: none;
+}
+
+/* Prevents italic font style on blockquote */
+blockquote:before,
+blockquote:after {
+    content: '';
+    content: none;
+}
+
+/* Remove default table spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
